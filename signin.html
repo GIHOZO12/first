@@ -31,15 +31,15 @@
     <form   action="index.html" method="post" name="form" id="form" onsubmit="return validated()">
         <label for="chk" aria-hidden="true">Login</label>
 
-        <input  autocomplete="off" type="text" class="start-email" name="email" placeholder="email or phone">
+        <input  autocomplete="off" type="text" class="start-email" name="email" placeholder="email or phone" required>
         <!-- <div id="secondEmail-error"> !please fill up your Email or phone</div> -->
-        <input type="password" class="loginPassword" name="password" placeholder="password">
+        <input type="password" class="loginPassword" name="password" placeholder="password" required>
         <!-- <div id="password-error"> please fill up your password</div> -->
         <button class="login-button" >login</button>
     
  </div>
     </div>
-    
+  
     <script src="index.js"></script>
 </body>
 </html>
