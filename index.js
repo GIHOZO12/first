@@ -23,7 +23,7 @@ inputBox.onkeyup=function(){
     }
   function display(result){
     const content=result.map((list)=>{
-        return "<li>" + "<li>";
+        return "<h5>" + "<h5>";
     })
     resultBox.innerHTML ="<h5>" + content.join('') + "<h5>";
   }
