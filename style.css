@@ -41,6 +41,15 @@
 
 
   }
+  .update{
+    top: 100%;
+    background: red;
+    display: none;
+
+  }
+  #new:hover .update{
+  display: block;
+  }
   .hide{
     display: none;
   }
@@ -81,7 +90,50 @@
     background-repeat: no-repeat;
     flex-direction: column;
   }
-  
+  .dosomething i{
+    position: fixed;
+    font-size: 70px;
+    right: 3%;
+    bottom: 3%;
+    background: green;
+    border-radius: 50%;
+    color: white;
+
+
+  }
+  .chat{
+    height: 400px;
+    width: 30%;
+    background: skyblue;
+    right: 2%;
+    bottom: 15%;
+    position: fixed;
+  }
+  .chat p{
+    text-align: center;
+    background:green;
+    color: white;
+    
+    
+  }
+  .next-link {
+    margin-top: 200px;
+    margin-left: 50%;
+  }
+  .txt{
+    margin-top: 250px;
+    width: 70%;
+  }
+  .start-to-search i{
+    margin-top: 250px;
+  }
+  .chat i{
+    position: fixed;
+    right: 2%;
+    color: red;
+    font-size: 15px;
+    transition: .4s right;
+  }
   #home h1{
     font-size: 30px;
     color: skyblue;
@@ -191,7 +243,7 @@
     border-radius: 50%;
     padding: 20px;
    
-    border: 1px solid whitesmoke;
+    border: 1px solid purple;
   }
   #contact i:hover{
     background: skyblue;
@@ -216,3 +268,36 @@
     padding: 3px;
 
   }
+  @media (max-width:600px){
+    .chat{
+      height: 350px;
+      width: 70%;
+      background: skyblue;
+      right: 10%;
+      bottom: 0%;
+      
+    }
+    .next-link {
+      margin-top: 150px;
+      margin-left: 50%;
+    }
+    .chat i{
+      position: fixed;
+      right: 10%;
+      color: red;
+      font-size: 15px;
+      transition: .4s right;
+    }
+
+  }
+    
+  }
+
+/* 
+  .....................payment place...................... */re
+
+
+form{
+  background: red;
+/* }
+..................rsponsive............ */

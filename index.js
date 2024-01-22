@@ -54,3 +54,24 @@ inputBox.onkeyup=function(){
         rveals[i].classList.remove('active');
     }
   }
+
+
+
+  var check=document.getElementById("continue");
+  check.style.display="none";
+
+ 
+    
+
+  var mainContent=document.querySelector('.chat');
+  mainContent.style.display="none";
+
+  document.querySelector('.dosomething').onclick=function(){
+  
+    mainContent.style.display="block";
+   
+  
+  }
+  document.getElementById("close").onclick=function(){
+    mainContent.style.display="none";
+  }
