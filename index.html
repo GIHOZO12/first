@@ -1,10 +1,3 @@
-<?php
-
-
-?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,9 +17,12 @@
 
 </head>
 <body>
+  <div class="loader">
+
+  </div>
     <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">new  technologies company ltd</a>
+          <a class="navbar-brand" href="#">New  technologies company ltd</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +37,7 @@
                 <a class="nav-link "  href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link "  href="#product" >product</i></a>
+                <a class="nav-link "  href="#product" >Product</i></a>
                 
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,8 +45,8 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">new brand</a></li>
-                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">New brand</a></li>
+                    <li><hr class="dropdown-divider">Job advert</li>
                     <li><a class="dropdown-item" href="#"></a></li>
                   </ul>
                 </li>
@@ -61,27 +57,76 @@
               </li>
             </ul>
          <div class="day-night">
-          <i class="fas fa-sun" style="padding-right: 30px;color:red;"></i>
+          <i class="fas fa-sun" style="padding-right: 40px;color:red;"></i>
+        
          </div>
-            <button class="btn p-2 my-lg-0 my-2 " style="border-radius: 100%; padding: 2px;"><a href="signin.html">   <i class="fa-solid fa-user" style="color: palevioletred;font-size: 30px;"></i></a> </button>
+           <i class="fa-solid fa-magnifying-glass" style="padding-right: 40px;"></i>
+         <button type="button" class="btn bg-primary "><a href="signin.html" style="color: white;text-decoration: none;">Signin</a></button>
+         <button type="button" class="btn bg-primary "><a href="" style="color: white; text-decoration: none;">Signup</a></button>
+            <button class="btn p-2 my-lg-0 my-2 " style="border-radius: 100%; padding: 2px;"><a href="signin.html">   <i class="fa-solid fa-user" style="color:rgb(157, 148, 148);font-size: 30px;"></i></a> </button>
            
          
         </div>
       </nav>
 
 
-      
+      <!-- <div class="search">
+ <input type="text" placeholder="search here">
+      </div> -->
    
 <section id="home">
-  <h1 class="text-center">new technologies ltd<br> online shoping</h1>
-  <p>welcome to new technologies ltd that offer more product for you</p>
-  <div class="resultbox">
-  <div class="input-group my-4 p-2">
-    <input type="text" class="form-control" id="input-box"  placeholder="search for product" autocomplete="off">
-    <button class="btn signin">   <i class="fa-solid fa-magnifying-glass"></i></button>
+
+
+
+  <div class="slider">
+    <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+            <img src="images/phone.jpg" alt="">
+            <h2>phone</h2>
+        </div>
+        <div class="slide">
+            <img src="images/laptop.jpg" alt="">
+            <h2>Laptop</h2>
+        </div>
+        <div class="slide">
+            <img src="images/smart watch.jpg" alt="">
+            <h2>Smart watch</h2>
+        </div>
+        <div class="slide">
+            <img src="images/laptop.jpg" alt="">
+            <h2>Laptop</h2>
+        </div>
+        <div class="slide"> 
+         <img src="images/phone.jpg" alt="">
+            <h2>Phone</h2>
+        </div>
+        <div class="slide">
+            <img src="images/camer.jpg" alt="">
+            <h2>camera</h2>
+        </div>
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+        </div>
+    </div>
+    <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+    </div>
+</div>
+   
+  
   </div>
   
-  <a href="signin.html" class="btn  signin">Get started</a>
+
 </section>
 
 <!-- ....................About................. -->
@@ -100,6 +145,9 @@
 <div class="dosomething">
 <i class="fa-brands fa-whatsapp" id="get-whatsapp-info"></i>
 </div>
+<section class="heading">
+<h2 >Welcome to new technologies company ltd online shopping <br>continue down and see <br> what we have for you</h2>
+</section>
 <section id="about">
 
   <div class="container-fluid">
@@ -110,7 +158,7 @@
       </div>
       <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
   <h1>About us</h1>
-  <p>the new technologies company ltd,it's company
+  <p>The new technologies company ltd,it's company
     located in rwanda . in kigali city and it's online
     company that offer more product for you 
      .we are so ecstatic to have you as client
@@ -127,7 +175,7 @@
 
 <section id="product">
   <div class="container m-5">
-    <h1 class="text-center m-5">our product</h1>
+    <h1 class="text-center m-5">Our product</h1>
     <div class="row">
       <div class="col-lg-4 col-md-4 col-12 reval active">
         <div class="card reval active">
@@ -136,7 +184,7 @@
             <h5 class="card-title"> I phone</h5>
             <h6>$100k-$1.2k</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -147,7 +195,7 @@
             <h5 class="card-title">I phone promax</h5>
             <h6>$1.5k-$2000k</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -155,10 +203,10 @@
         <div class="card reval active">
           <img src="images/piano.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">piano</h5>
+            <h5 class="card-title">Piano</h5>
             <h6>$1.2k-$1.3k</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -168,10 +216,10 @@
         <div class="card reval active">
           <img src="images/kk.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">speaker</h5>
+            <h5 class="card-title">Speaker</h5>
             <h6>$30-$40</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -179,10 +227,10 @@
         <div class="card reval active">
           <img src="images/pp.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">desktop</h5>
+            <h5 class="card-title">Desktop</h5>
             <h6>$200-$300</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -190,10 +238,10 @@
         <div class="card reval active">
           <img src="images/camer.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">digital camera</h5>
+            <h5 class="card-title">Digital camera</h5>
             <h6>$800-$900</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -203,10 +251,10 @@
         <div class="card reval active">
           <img src="images/bram-naus-N1gUD_dCvJE-unsplash.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">laptop</h5>
+            <h5 class="card-title">Laptop</h5>
             <h6>$100-150$</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -214,10 +262,10 @@
         <div class="card reval active">
           <img src="images/back.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">camera</h5>
+            <h5 class="card-title">Camera</h5>
             <h6>$400-$500</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div> 
@@ -225,10 +273,10 @@
         <div class="card reval active">
           <img src="images/projector.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">projector</h5>
+            <h5 class="card-title">Projector</h5>
             <h6>$$800-$1000</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -238,10 +286,10 @@
         <div class="card reval active">
           <img src="images/laptop.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">laptop</h5>
+            <h5 class="card-title">Laptop</h5>
             <h6>$200-$250</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -249,10 +297,10 @@
         <div class="card reval active">
           <img src="images/smart watch.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">smart watch</h5>
+            <h5 class="card-title">Smart watch</h5>
             <h6>$15-$20</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -263,7 +311,7 @@
             <h5 class="card-title">earphone </h5>
             <h6>$12-$15</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -275,7 +323,7 @@
             <h5 class="card-title">IT proffissianal tool kit </h5>
             <h6>$45-$50</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -285,7 +333,7 @@
           <div class="card-body text-center">
             <h5 class="card-title"></h5>
             <h6>$12-$15</h6>
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -293,10 +341,10 @@
         <div class="card reval active">
           <img src="images/louis-hansel-M_dJ_ScwaLE-unsplash.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">guittar</h5>
+            <h5 class="card-title">Guittar</h5>
             <h6>$20--$300</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -304,10 +352,10 @@
         <div class="card reval active">
           <img src="images/christian-bouvier-ozhoqIaZK6o-unsplash.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">macbook </h5>
+            <h5 class="card-title">Macbook </h5>
             <h6>$1.2k-$1.8k</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -315,10 +363,10 @@
         <div class="card reval active">
           <img src="images/nick-van-der-ende-VYfxkePredI-unsplash.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">external hard disk </h5>
+            <h5 class="card-title">External hard disk </h5>
             <h6>$65-$75</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -326,10 +374,10 @@
         <div class="card reval active">
           <img src="images/wulan-sari-M3UMw8u0pe8-unsplash.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">external keyboard </h5>
+            <h5 class="card-title">External keyboard </h5>
             <h6>$30-$35</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -337,10 +385,10 @@
         <div class="card reval active">
           <img src="images/onur-binay-7A9DeLxTskE-unsplash.jpg" class="card-img-top" >
           <div class="card-body text-center">
-            <h5 class="card-title">ear bluetooth </h5>
+            <h5 class="card-title">Ear bluetooth </h5>
             <h6>$9.5-$10</h6>
             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-            <a href="payment.html" class="btn signin">buy now</a>
+            <a href="payment.html" class="btn signin">Buy now</a>
           </div>
         </div>
       </div>
@@ -356,7 +404,7 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-12">
         <!-- <img src="images/cpn logo.png" class="img-fluid">  -->
-        <h2>our social media links</h2>
+        <h2>Our social media links</h2>
         <a href=""><i class="fa-brands fa-facebook-f"></i><span>share to facebook</span></a><br>
         <a href="https://wa.me/250783227185"><i class="fa-brands fa-whatsapp"></i><span>chat with us</span></a><br>
         <a href="https://www.linkedin.com/in/gihozo-ismail-5a3a0025a/"><i class="fa-brands fa-linkedin-in"></i>share to linkedin</a><br>
@@ -374,8 +422,10 @@
   <input type="text" name="name" class="form-control" placeholder="enter your name " required>
   <input type="email"  name="email"class="form-control" placeholder="enter your email" required>
   <input type="number"  name="email"class="form-control" placeholder="phone number" required>
+  <textarea name="" id=""  rows="5" name="message"  class="form-control" placeholder="Start by  greatings" required></textarea>
+  <input type="text"  name="text"class="form-control" placeholder="your message" required>
   
-  <textarea name="" id=""  rows="5" name="message"  class="form-control" placeholder="enter your message here" required></textarea>
+
 <button class="btn signin"> Send Message</button>
 
  </form>
@@ -383,10 +433,9 @@
     </div>
   </div>
 </section>
-<hr>
-
-
-<footer>  &copy;  new technologies ltd 2045</footer>
+<section class="footer">
+<footer> Copyright &copy;  new technologies ltd 2045</footer>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="index.js"></script>

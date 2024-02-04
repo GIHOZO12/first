@@ -1,33 +1,41 @@
 
 
-let availableKeyword=['laptop','smart phone','earphoone','piano','smartwatch'];
+// let availableKeyword=['laptop','smart phone','earphoone','piano','smartwatch'];
 
-const resultBox=document.querySelector('.resultbox');
-const inputBox=document.getElementById("input-box");
-
-
-
-inputBox.onkeyup=function(){
-    let result=[];
-    let input=inputBox.value; 
+// const resultBox=document.querySelector('.resultbox');
+// const inputBox=document.getElementById("input-box");
 
 
-    if(input.length){
-        result=availableKeyword.filter((keyword) =>{
-    return   keyword.toLowerCase().includes(input.toLowerCase());
-        });
-        console.log(result);
 
-        }
-        display(result);
+// inputBox.onkeyup=function(){
+//     let result=[];
+//     let input=inputBox.value; 
+
+
+//     if(input.length){
+//         result=availableKeyword.filter((keyword) =>{
+//     return   keyword.toLowerCase().includes(input.toLowerCase());
+//         });
+//         console.log(result);
+
+//         }
+//         display(result);
+//     }
+//   function display(result){
+//     const content=result.map((list)=>{
+//         return "<h5>" + "<h5>";
+//     })
+//     resultBox.innerHTML ="<h5>" + content.join('') + "<h5>";
+//   }
+
+var counter=1;
+setInterval(function(){
+    document.getElementById('radio'+ counter).checked=true;
+    counter++;
+    if(counter >4){
+        counter=1;
     }
-  function display(result){
-    const content=result.map((list)=>{
-        return "<h5>" + "<h5>";
-    })
-    resultBox.innerHTML ="<h5>" + content.join('') + "<h5>";
-  }
-
+},5000);
 
   const dayNight= document.querySelector('.day-night');
   dayNight.addEventListener('click',()=>{
